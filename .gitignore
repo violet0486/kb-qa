@@ -1,0 +1,20 @@
+# 密钥文件 —— 绝对不能提交！
+.env
+
+# Python 运行产生的垃圾
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# 你的 PDF 原文（可能有版权/隐私，不传）
+data/pdf/
+
+# 中间产物
+data/index/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
